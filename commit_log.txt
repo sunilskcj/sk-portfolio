@@ -40,3 +40,4 @@
 2025-08-04 00:00:00 - fix: correct API response format
 2025-08-04 12:00:00 - feat: integrate API for data fetching
 2025-08-05 00:00:00 - fix: correct date formatting issues
+2025-08-05 12:00:00 - fix: fix incorrect calculation in business logic
