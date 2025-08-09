@@ -49,3 +49,4 @@
 2025-08-08 12:00:00 - chore: update dependencies to latest versions
 2025-08-09 00:00:00 - feat: integrate API for data fetching
 2025-08-09 12:00:00 - perf: implement lazy loading
+2025-08-10 00:00:00 - fix: correct API response format
