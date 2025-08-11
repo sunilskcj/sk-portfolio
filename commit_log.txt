@@ -52,3 +52,4 @@
 2025-08-10 00:00:00 - fix: correct API response format
 2025-08-10 12:00:00 - perf: implement lazy loading
 2025-08-11 00:00:00 - perf: reduce bundle size
+2025-08-11 12:00:00 - fix: correct date formatting issues
