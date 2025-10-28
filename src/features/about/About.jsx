@@ -16,7 +16,7 @@ export const About = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
-      className="fixed inset-0 z-10 bg-black overflow-y-auto"
+      className="fixed inset-0 z-10 overflow-y-auto"
     >
       {/* Container with proper centering and spacing */}
       <div className="min-h-full flex items-center justify-center px-4 sm:px-6 lg:px-8 py-16 sm:py-20 md:py-24 pb-32">

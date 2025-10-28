@@ -1,9 +1,17 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
+import { useNavigate } from 'react-router-dom'
 import PropTypes from 'prop-types'
 
 export const ProjectCard = ({ project, index }) => {
   const [isHovered, setIsHovered] = useState(false)
+  const navigate = useNavigate()
+
+  const handleClick = () => {
+    if (project.caseStudyUrl) {
+      navigate(project.caseStudyUrl)
+    }
+  }
 
   return (
     <motion.div
@@ -17,6 +25,7 @@ export const ProjectCard = ({ project, index }) => {
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onClick={handleClick}
       className="group cursor-pointer"
     >
       <motion.div
@@ -106,6 +115,7 @@ ProjectCard.propTypes = {
     year: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     tag: PropTypes.string,
+    caseStudyUrl: PropTypes.string,
   }).isRequired,
   index: PropTypes.number.isRequired,
 }

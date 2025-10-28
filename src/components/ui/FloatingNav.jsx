@@ -6,6 +6,7 @@ export const FloatingNav = () => {
 
   const navItems = [
     { label: 'Work', path: '/' },
+    { label: 'Blog', path: '/blog' },
     // { label: 'Archive', path: '/archive' }, // Hidden - uncomment to show
     { label: 'About', path: '/about' }
   ]

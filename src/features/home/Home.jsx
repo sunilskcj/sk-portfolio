@@ -49,6 +49,7 @@ export const Home = () => {
       year: '2024',
       tag: 'Web Platform',
       image: new URL('../../assets/Vox.gif', import.meta.url).href,
+      caseStudyUrl: '/case-study/vox',
     },
     {
       title: 'MyJournal',
@@ -56,6 +57,7 @@ export const Home = () => {
       year: '2024',
       tag: 'Full Stack App',
       image: new URL('../../assets/MYJOURNAL.gif', import.meta.url).href,
+      caseStudyUrl: '/case-study/myjournal',
     },
     {
       title: 'Fintech Hub',
@@ -63,6 +65,7 @@ export const Home = () => {
       year: '2024',
       tag: 'Enterprise Platform',
       image: new URL('../../assets/myFin.gif', import.meta.url).href,
+      caseStudyUrl: '/case-study/fintech-hub',
     },
   ]
 
