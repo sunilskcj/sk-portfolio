@@ -39,7 +39,7 @@ export default function App() {
       <BlackVoidEntry onComplete={() => setIntroComplete(true)} />
 
       {introComplete && (
-        <Router>
+        <Router basename="/sk-portfolio">
           <AppContent />
         </Router>
       )}
